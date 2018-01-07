@@ -78,3 +78,5 @@ LP_back_input = [
 HP = TBV_model(HP_input, HP_back_input)
 HRH = TBV_model(HRH_input, HRH_back_input)
 LP = TBV_model(LP_input, LP_back_input)
+
+HRH.plotPvsFlow(200)
