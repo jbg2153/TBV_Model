@@ -1,4 +1,4 @@
-from TBV_Cv_Calc_v5 import *
+from TBV_Model import *
 
 HP_input = [
 	170, # P1, bypass valve inlet pressure (psia)
@@ -78,3 +78,5 @@ LP_back_input = [
 HP = TBV_model(HP_input, HP_back_input)
 HRH = TBV_model(HRH_input, HRH_back_input)
 LP = TBV_model(LP_input, LP_back_input)
+
+HRH.plotPvsFlow(200)
