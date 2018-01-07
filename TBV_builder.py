@@ -1,4 +1,4 @@
-from TBV_Cv_Calc_v5 import *
+from TBV_Model import *
 
 HP_input = [
 	170, # P1, bypass valve inlet pressure (psia)
